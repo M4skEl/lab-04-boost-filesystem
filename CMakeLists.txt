@@ -32,6 +32,7 @@ find_package(GTest CONFIG REQUIRED)
 
 add_library(lab-04-boost-filesystem-lib STATIC
         sources/source.cpp
+        sources/Fin_Inf.cpp
         sources/main.cpp)
 
 add_executable(tests
