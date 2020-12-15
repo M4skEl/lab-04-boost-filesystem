@@ -53,7 +53,6 @@ target_link_libraries(lab-04-boost-filesystem-lib PUBLIC Boost::filesystem)
 
 target_link_libraries(demo PRIVATE lab-04-boost-filesystem-lib)
 
-
 target_link_libraries(tests PRIVATE GTest::gmock_main lab-04-boost-filesystem-lib)
 
 enable_testing()
