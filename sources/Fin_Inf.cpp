@@ -1,4 +1,4 @@
-//
+// Copyright 2020 Siver Elisey <sivereliseu7@gmail.com>
 // Created by elisey on 15.12.2020.
 //
 
