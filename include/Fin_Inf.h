@@ -18,9 +18,7 @@ class Fin_Inf {
 
   Fin_Inf();
   Fin_Inf(std::string br, std::string ft, std::string acc, std::set<int> d);
-
-
 };
 
-std::ostream& operator<<(std::ostream out, const Fin_Inf& fin);
+std::ostream& operator<<(std::ostream& out, const Fin_Inf& fin);
 #endif  // LAB_04_BOOST_FILESYSTEM_LIB_FIN_INF_H

@@ -10,9 +10,9 @@ Fin_Inf::Fin_Inf(std::string br, std::string ft, std::string acc,
                  std::set<int> d)
     : broker(br), file_type(ft), bank_acc(acc), dates(d) {}
 
-
 std::ostream& operator<<(std::ostream& out, const Fin_Inf& fin) {
-  auto iter = fin.dates.end()--;
+  auto iter = fin.dates.end();
+  iter--;
   out << "broker: " << fin.broker << " account: " << fin.bank_acc
       << "files: " << fin.dates.size() << "last date: " << *iter;
   return out;
