@@ -7,7 +7,6 @@
 
 #include "header.hpp"
 #include "sstream"
-
 namespace fs = boost::filesystem;
 
 TEST(Fin_inf, print) {
